@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+
+.main-container {
+  padding: 1rem;
+}
+
+.message-container {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.message-container,
+.movie-container {
+  display: flex;
+}

@@ -1,0 +1,12 @@
+
+<my-header [title]="'Flop Chooser'"></my-header>
+  
+<div class="main-container">
+  <div class="message-container">
+    <my-message-display [isCorrect]="isCorrect" [isSelected]="isSelected" (playAgainEvent)="playAgain()"></my-message-display>
+  </div>
+
+  <div class="movie-container">
+    <my-movie-tile [isSelected]="isSelected" [movie]="movie" *ngFor="let movie of randomMovies" (SelectedMovie)="selectMovie($event)"></my-movie-tile>
+  </div>
+</div>

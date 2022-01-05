@@ -1,0 +1,10 @@
+.movie-tile {
+  cursor: pointer;
+  margin-right: 3rem;
+  border: 5px solid lightblue;
+}
+
+.movie-image {
+  width:8rem; 
+  height:auto;
+}

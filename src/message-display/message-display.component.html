@@ -1,0 +1,6 @@
+<div>
+  <p>Which movie has a lower IMDB rating?</p>
+  <p *ngIf="isSelected" [style.color]="isCorrect ? 'green' : 'red'">{{displayMessage()}}</p>
+  <button class="btn btn-primary" (click)="handlePlayAgainClick()" *ngIf="isSelected">Play Again</button>
+
+</div>
